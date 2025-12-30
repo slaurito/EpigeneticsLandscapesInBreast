@@ -1,6 +1,5 @@
 
 ###########################################################################
-
 ##Complete bioinformatic analysis corresponding to the manuscript 
 #"Left-Right Asymmetry in the Breast TME is associated with distinct 
 #Bioelectric and Epigenetic Tumor Profiles" by Real et al. 
@@ -1705,6 +1704,7 @@ MeanIdcCafDfFilt <- XenaIdcDataFilt %>%
   group_by(Site) %>%
   summarise(mean_score = mean(CafScore, na.rm = TRUE), .groups = "drop")
 ###############################################################################
+
 
 
 
